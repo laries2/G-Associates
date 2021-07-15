@@ -1,0 +1,83 @@
+body{
+    margin: 10px;
+    padding: 20px;
+    background-color: darkslategrey;
+}
+h2{
+    font-family: sans-serif;
+    color: aqua;
+    padding-left:70px;
+}
+hr{
+    border: 4px solid rebeccapurple;
+    border-radius: 10px;
+    width: 100%;
+}
+.forms{
+    width: 100%;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.contacts{
+    background-color: darkslateblue;
+    border-radius: 20px;
+
+}
+form{
+
+}
+label{
+    font-family: sans-serif;
+    color: black;
+    size: 18px;
+    padding-left: 10px;
+}
+input[type=text], input[type=email], input[type=tel], textarea{
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    border: 5px solid darkslategray;
+    color: blue;
+}
+input[type=submit]{
+
+    color: rebeccapurple;
+    border-radius: 10px;
+    background-color: aqua;
+
+    box-sizing: border-box;
+    border-color: floralwhite;
+
+
+
+    font-family: sans-serif;
+    font-size: 16px;
+
+}
+
+
+
+.logo{
+
+    border-radius: 20px;
+    color: #1e36ff;
+    background-color: black;
+    padding: 10px;
+
+}
+.buttonb{
+    display: flex;
+    align-content: center;
+
+    text-align: center;
+    justify-content: center;
+    font-family: sans-serif;
+
+
+}
+input[type=submit]:hover{
+    background: black;
+}
