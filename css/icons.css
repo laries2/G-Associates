@@ -22,7 +22,10 @@
     background: brown;
     color: white;
 }
-
+.fa-github {
+    background: #4e555b;
+    color: white;
+}
 
 .fa:hover {
     opacity: 0.9;
