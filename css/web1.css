@@ -1,9 +1,11 @@
 
 
+
 .topMenu{
     background-color: #0c5460;
     color: #0056b3;
     font-family: serif;
+   size: 50px;
 
 }
 .textt{
@@ -87,77 +89,8 @@ text-align: center;
 .contact:hover{
     background-color: black;
 }
-.social {
-    width: 100%;
-    height: 200px;
-    background-color: darkgrey;
-    padding-top: 50px;
-    color: green;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
-.wrapper{
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-}
-.wrapper .buttoni{
-    display: inline-block;
-    height: 60px;
-    width: 60px;
-    float:left;
-    margin: 0 5px;
-    overflow: hidden;
-    background: #FFFFFF;
-    border-radius: 50px;
-    cursor: pointer;
-    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
-    transition: all 0.3s ease-out;
 
-}
-.wrapper .buttoni:hover{
-    width: 200px;
-}
-.wrapper .buttoni .icon{
-    display: inline-block;
-    height: 60px;
-    width: 60px;
-    text-align: center;
-    border-radius: 50px;
-    box-sizing: border-box;
-    line-height: 60px;
-    transition: all 0.3s ease-out;
-}
-.wrapper .buttoni:nth-child(1):hover .icon{
-    background: darkblue;
 
-}
-.wrapper .buttoni:nth-child(2):hover .icon{
-    background: dodgerblue;
-}
-.wrapper .buttoni:nth-child(3):hover .icon{
-    background: darkred;
-}
-.wrapper .buttoni:nth-child(4):hover .icon{
-    background: dodgerblue;
-}
-.wrapper .buttoni .icon i{
-    font-size: 25px;
-    line-height: 60px;
-    transition: all 0.3s ease-out;
-}
-.wrapper .buttoni :hover .icon i{
-    color: #fff3cd;
-}
-.wrapper .buttoni span{
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 60px;
-    margin-left: 10px;
-    transition: all 0.3s ease-out;
-}
 
 
 
@@ -212,8 +145,57 @@ details{
     padding: 10px;
 
 }
-webkit-details-marker{
-    float: right;
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+
+
 }
 
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+    background: black;
+}
 
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: red;
+    color: white;
+}
+.fa-google {
+    background: red;
+    color: white;
+}
+.fa-linkedin {
+    background: #55ACEE;
+    color: white;
+}
+.fa-youtube {
+    background: red;
+    color: white;
+}
+.fa-github {
+    background: black;
+    color: white;
+}
+.ic{
+    padding: 50px;
+}
