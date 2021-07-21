@@ -72,15 +72,15 @@ div#ws_fullscreen:fullscreen #wowslider-container1 {
 
 div#ws_fullscreen:-moz-full-screen {
     background-color: #000;
-    height: 50%;
+    height: 100%;
 }
 
 div#ws_fullscreen:-webkit-full-screen {
     background-color: #000;
-    height: 50%;
+    height: 100%;
 }
 
 div#ws_fullscreen:fullscreen {
     background-color: #000;
-    height: 50%;
+    height: 100%;
 }
