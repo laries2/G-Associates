@@ -12,10 +12,9 @@
 	max-height:none;
 	margin:0px auto 0px;
 	z-index:90;
-	text-align:center; /* reset align=center */
-
-	font-size: 30px;
-	text-shadow: #b3d7ff; /* fix some user styles */
+	text-align:left; /* reset align=center */
+	font-size: 10px;
+	text-shadow: none; /* fix some user styles */
 
 	/* reset box-sizing (to boostrap friendly) */
 	-webkit-box-sizing: content-box;
@@ -376,7 +375,4 @@
 	#wowslider-container1 .ws_thumbs{
 		display: none
 	}
-}
-.ken{
-	color: #1e36ff;
 }
